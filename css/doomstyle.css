@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'Doom';
+  src: url('/fonts/AmazDooMLeftOutline.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+    background-color: black;
+  }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  margin-bottom: 3em;
+}
+
+
+.logo {
+  flex: 1;
+  text-align: left;
+  height: 150px;
+}
+
+.text {
+  flex: 2;
+  font-size: 100px;
+  color: bisque;
+  font-family: 'Doom', sans-serif;
+  height: 150px;
+}
+
+.urls {
+  padding: 5px;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  margin-top: 3dvh;
+}
+
+p.movieinfo {
+  background-color: bisque;
+  border: 2px solid #faef59;
+  border-radius: 8px;
+  padding: 5px;
+  width: 650px;
+  height: auto;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
+
+p.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+footer {
+  background-color: bisque;
+  height: 50px;
+  border: 2px solid #faef59;
+  border-radius: 8px;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  color: navy;
+  margin-top: 3em;
+}
+
